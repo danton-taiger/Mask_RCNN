@@ -6,7 +6,7 @@ with open("via_region_data.json") as f:
     annotation = json.load(f)
 
 print(annotation.keys())
-val = random.sample(annotation.keys(), 34)
+val = random.sample(annotation.keys(), 15)
 
 val_dict = {}
 for key in val:
